@@ -39,7 +39,7 @@ jobs:
         env:
           GITHUB_REF: ${{ github.ref_name }}
 
-      - name: Print all environment variables
+      - name: Print environment variables to debug
         run: env
 
       - name: Build Docker image
